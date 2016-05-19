@@ -31,8 +31,8 @@ scan() {
     read ans < /dev/tty
 
     if [ "$ans" == "y" ] || [ "$ans" == "Y" ]; then
-      sudo rfcomm bind /dev/rfcomm${n} $addr 1
-      sudo chgrp adm /dev/rfcomm${n}
+      rfcomm bind /dev/rfcomm${n} $addr 1
+      chgrp adm /dev/rfcomm${n}
 
       echo "$addr $name $n" >> $dev
 
@@ -64,7 +64,7 @@ release() {
     n=`echo $line | cut -d' ' -f 3`
 
     echo "Releasing $name at address $addr..."
-    sudo rfcomm release /dev/rfcomm$n
+    rfcomm release /dev/rfcomm$n
   done
 
 }
