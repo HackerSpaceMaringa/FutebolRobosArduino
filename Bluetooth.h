@@ -4,8 +4,8 @@
 #include "Arduino.h"
 
 void setupBluetooth();
-int btAvailable();
-String getMessage();
-void sendMessage(String);
+int btBytesDisponiveis();
+String btRecebeMensagem();
+void byEnviaMensagem(String);
 
 #endif

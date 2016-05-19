@@ -8,5 +8,8 @@ void setup() {
 }
 
 void loop() {
-  loopEncoder();
+  if (btBytesDisponiveis() > 0) {
+    String Message = btRecebeMensagem();
+    Serial.println(Message);
+  }
 }
