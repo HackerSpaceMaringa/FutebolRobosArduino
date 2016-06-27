@@ -39,8 +39,9 @@ while True:
 
     if (devSerial[curDev[ADDR]].isOpen):
         print "Sending {%s} to serial port /dev/rfcomm%s." % (msg, curDev[PORT])
-        devSerial[curDev[ADDR]].write(chr(len(msg)))
+        #devSerial[curDev[ADDR]].write(chr(len(msg)))
         devSerial[curDev[ADDR]].write(msg)
+        devSerial[curDev[ADDR]].write(chr(0))
         print "AT sent to robot %s in address %s." % (curDev[NAME], curDev[ADDR])
     else:
         print "Serial /dev/rfcomm%s not ok..." % curDev[PORT]

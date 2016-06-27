@@ -15,13 +15,18 @@ int btBytesDisponiveis() {
   return BtSerial.available();
 }
 
+bool btCharacterFinal(char Char) {
+  return Char == '\0' || Char == '\n' || Char == '\r';
+}
+
 String btRecebeMensagem() {
-  String Message;
-  int Length = BtSerial.read();
-  for (int I = 0; I < Length;) {
-    if (BtSerial.available() > 0) {
-      Message += (char)BtSerial.read();
-      ++I;
+  String Message = "";
+  char CurrentChar;
+  while (true) {
+    if (btBytesDisponiveis() > 0) {
+      CurrentChar = BtSerial.read();
+      if (btCharacterFinal(CurrentChar)) break;
+      Message += CurrentChar;
     }
   }
   return Message;
