@@ -1,10 +1,13 @@
+#include "Definitions.h"
 #include "Encoder.h"
 #include "Bluetooth.h"
+#include "Motor.h"
 
 void setup() {
   Serial.begin(9600);
   setupEncoder();
   setupBluetooth();
+  setupMotor();
 }
 
 void loop() {
