@@ -12,6 +12,7 @@ class Motor {
     void parar();  
     void giraFrente();
     void giraTras();
+    void setVelocidade(int);
 
 };
 

@@ -29,7 +29,7 @@
 
 // ------------ Definicoes de Controle
 #define MT_DIREITA  0
-#define MT_ESQUERDA 0
+#define MT_ESQUERDA 1
 
 #define MT_VELOCITY_HIGH 250
 #define MT_VELOCITY_MED  120

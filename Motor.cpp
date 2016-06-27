@@ -14,12 +14,12 @@
  *        1           1          Parado
  */
 
-Motor MotorDireita(MOTOR_DIR_PIN_A, MOTOR_DIR_PIN_B);
-Motor MotorEsquerda(MOTOR_ESQ_PIN_A, MOTOR_ESQ_PIN_B);
+Motor MotorDireita(MOTOR_DIR_PIN_A, MOTOR_DIR_PIN_B, MOTOR_DIR_PWM);
+Motor MotorEsquerda(MOTOR_ESQ_PIN_A, MOTOR_ESQ_PIN_B, MOTOR_ESQ_PWM);
 
 void mtSetVelocidade(int V, int MotorID) {
   if (MotorID == MT_ESQUERDA) MotorEsquerda.setVelocidade(V);
-  else if (MotorID == MT_DIREITA) MotorEsquerda.setVelocidade(V);
+  else if (MotorID == MT_DIREITA) MotorDireita.setVelocidade(V);
 }
 
 void mtViraParaEsquerda() {
