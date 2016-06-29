@@ -14,8 +14,8 @@
  *        1           1          Parado
  */
 
-Motor MotorDireita(MOTOR_DIR_PIN_A, MOTOR_DIR_PIN_B, MOTOR_DIR_PWM);
-Motor MotorEsquerda(MOTOR_ESQ_PIN_A, MOTOR_ESQ_PIN_B, MOTOR_ESQ_PWM);
+Motor MotorDireita(MOTOR_INPUT_1_PIN_A, MOTOR_INPUT_2_PIN_A, MOTOR_ENABLE_A_PWM);
+Motor MotorEsquerda(MOTOR_INPUT_3_PIN_B, MOTOR_INPUT_4_PIN_B, MOTOR_ENABLE_B_PWM);
 
 void mtSetVelocidade(int V, int MotorID) {
   if (MotorID == MT_ESQUERDA) MotorEsquerda.setVelocidade(V);
@@ -50,13 +50,14 @@ void mtParar() {
 // ---------------------------------------------------- Classe Motor ----------------------------------------------------
 
 void setupMotor() {
-  pinMode(MOTOR_DIR_PIN_A, OUTPUT);
-  pinMode(MOTOR_DIR_PIN_B, OUTPUT);
-  pinMode(MOTOR_ESQ_PIN_A, OUTPUT);
-  pinMode(MOTOR_ESQ_PIN_B, OUTPUT);
+  pinMode(MOTOR_INPUT_1_PIN_A, OUTPUT);
+  pinMode(MOTOR_INPUT_2_PIN_A, OUTPUT);
 
-  pinMode(MOTOR_DIR_PWM, OUTPUT);
-  pinMode(MOTOR_ESQ_PWM, OUTPUT);
+  pinMode(MOTOR_INPUT_3_PIN_B, OUTPUT);
+  pinMode(MOTOR_INPUT_4_PIN_B, OUTPUT);
+
+  pinMode(MOTOR_ENABLE_A_PWM, OUTPUT);
+  pinMode(MOTOR_ENABLE_B_PWM, OUTPUT);
 }
 
 Motor::Motor(int PinA, int PinB, int PinPWM) {

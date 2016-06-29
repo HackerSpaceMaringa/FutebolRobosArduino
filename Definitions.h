@@ -20,12 +20,13 @@
  * Definicoes do Motor
  */
 // ------------ Pinos
-#define MOTOR_DIR_PIN_A 4
-#define MOTOR_DIR_PIN_B 5
-#define MOTOR_ESQ_PIN_A 6
-#define MOTOR_ESQ_PIN_B 7
-#define MOTOR_DIR_PWM 10
-#define MOTOR_ESQ_PWM 11
+#define MOTOR_INPUT_1_PIN_A 4
+#define MOTOR_INPUT_2_PIN_A 5
+#define MOTOR_ENABLE_A_PWM 10
+
+#define MOTOR_INPUT_3_PIN_B 6
+#define MOTOR_INPUT_4_PIN_B 7
+#define MOTOR_ENABLE_B_PWM 11
 
 // ------------ Definicoes de Controle
 #define MT_DIREITA  0
