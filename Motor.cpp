@@ -28,8 +28,8 @@ void mtViraParaEsquerda() {
 }
 
 void mtViraParaDireita() {
-  MotorDireita.giraFrente();
-  MotorEsquerda.giraTras();
+  MotorDireita.giraTras();
+  MotorEsquerda.giraFrente();
 }
 
 void mtVaiParaFrente() {
@@ -38,8 +38,8 @@ void mtVaiParaFrente() {
 }
 
 void mtVaiParaTras() {
-  MotorDireita.giraFrente();
-  MotorEsquerda.giraFrente();
+  MotorDireita.giraTras();
+  MotorEsquerda.giraTras();
 }
 
 void mtParar() {
@@ -58,6 +58,9 @@ void setupMotor() {
 
   pinMode(MOTOR_ENABLE_A_PWM, OUTPUT);
   pinMode(MOTOR_ENABLE_B_PWM, OUTPUT);
+  
+  MotorDireita.setVelocidade(150);
+  MotorEsquerda.setVelocidade(150);
 }
 
 Motor::Motor(int PinA, int PinB, int PinPWM) {

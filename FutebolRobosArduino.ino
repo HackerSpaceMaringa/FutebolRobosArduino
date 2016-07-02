@@ -1,3 +1,5 @@
+#include "SoftwareSerial.h"
+
 #include "Definitions.h"
 #include "Encoder.h"
 #include "Bluetooth.h"
@@ -13,6 +15,23 @@ void setup() {
 void loop() {
   if (btBytesDisponiveis() > 0) {
     String Message = btRecebeMensagem();
-    Serial.println(Message);
+    //Serial.print("Message: ");
+    //Serial.println(Message);
+    if (Message == "ViraDireita") {
+      mtViraParaDireita();
+    }
+    if (Message == "ViraEsquerda") {
+      mtViraParaEsquerda();
+    }
+    if(Message == "VaiParaFrente") {
+      mtVaiParaFrente();
+    }
+    if(Message == "VaiParaTras") {
+      mtVaiParaTras();
+    }
+    if(Message == "Parar") {
+      mtParar();
+    }
   }
+  loopEncoder();
 }
