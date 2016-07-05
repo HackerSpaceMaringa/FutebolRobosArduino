@@ -1,5 +1,7 @@
 # Futebol de Robôs
 
+[![Build Status](https://travis-ci.org/HackerSpaceMaringa/FutebolRobosArduino.svg?branch=master)](https://travis-ci.org/HackerSpaceMaringa/FutebolRobosArduino)
+
 Projeto completo do Futebol de Robôs mantido pelo Hackerspace Maringá.
 
 ## Índice
@@ -55,36 +57,36 @@ TODO
 ### TODO
 
 #### Client-side(CS)
-    - [x] Schematic (Eagle) 
-    - [x] Montagem protoboard
-    - [x] Implementação Comunicação Bluetooth
-    - [ ] Implementação Protocolo
-    - [x] Implementação Controle dos motores
-    - [ ] Implementação Movimentação
-    - [ ] Board (Eagle)
-    - [ ] Verificar preço produção Board
-    - [ ] Finalizar compra dos componentes
-    - [ ] Soldar as placas
+- [x] Schematic (Eagle) 
+- [x] Montagem protoboard
+- [x] Implementação Comunicação Bluetooth
+- [ ] Implementação Protocolo
+- [x] Implementação Controle dos motores
+- [ ] Implementação Movimentação
+- [ ] Board (Eagle)
+- [ ] Verificar preço produção Board
+- [ ] Finalizar compra dos componentes
+- [ ] Soldar as placas
 
 #### Server-side(SS)
-    - [x] Script de Comunicação Bluetooth
-    - [ ] Implementação Protocolo
-    - [ ] Implementação Detecção dos Robôs
-    - [ ] Implementação da Estratégia
+- [x] Script de Comunicação Bluetooth
+- [ ] Implementação Protocolo
+- [ ] Implementação Detecção dos Robôs
+- [ ] Implementação da Estratégia
 
 #### Testes
-    - [x] CS:Testes Comunicação Bluetooth (Protoboard)
-    - [ ] CS:Testes Comunicação Bluetooth (Board)
-    - [ ] CS:Testes de Recepção do Protocolo
-    - [x] CS:Testes Controle Motores (Protoboard)
-    - [ ] CS:Testes Controle Motores (Board)
-    - [ ] CS:Testes Movimentação
-    - [ ] CS:Testes Monitoramento da Bateria (Protoboard)
-    - [ ] CS:Testes Monitoramento da Bateria (Board)
-    - [x] SS:Testes do Script de Comunicação Bluetooth
-    - [ ] SS:Testes de Envio do Protocolo
-    - [ ] SS:Testes Detecção dos Robôs
-    - [ ] SS:Testes da Estratégia
+- [x] CS:Testes Comunicação Bluetooth (Protoboard)
+- [ ] CS:Testes Comunicação Bluetooth (Board)
+- [ ] CS:Testes de Recepção do Protocolo
+- [x] CS:Testes Controle Motores (Protoboard)
+- [ ] CS:Testes Controle Motores (Board)
+- [ ] CS:Testes Movimentação
+- [ ] CS:Testes Monitoramento da Bateria (Protoboard)
+- [ ] CS:Testes Monitoramento da Bateria (Board)
+- [x] SS:Testes do Script de Comunicação Bluetooth
+- [ ] SS:Testes de Envio do Protocolo
+- [ ] SS:Testes Detecção dos Robôs
+- [ ] SS:Testes da Estratégia
 
 ### License
 This project extends GNU GPL v. 3, so be aware of that, regarding copying, modifying and (re)destributing.
