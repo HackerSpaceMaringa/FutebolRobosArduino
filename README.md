@@ -11,10 +11,10 @@ Projeto completo do Futebol de Robôs mantido pelo Hackerspace Maringá.
     - [Hardware](#hardware)
         - [Microcontrolador](#microcontrolador)
         - [Comunicação](#comunicação)
-        - [Controle dos Motores](#controle#dos#motores)
-        - [Monitoramento da Bateria](#monitoramento#da#bateria)
+        - [Controle dos Motores](#controle-dos-motores)
+        - [Monitoramento da Bateria](#monitoramento-da-bateria)
     - [Software](#software)
-- [Avanço do Projeto](#avanço#do#projeto)
+- [Avanço do Projeto](#avanço#do-projeto)
 - [Créditos](#créditos)
 - [Licença](#licença)
 
@@ -41,6 +41,8 @@ Para o controle dos motores utilizaremos o circuito integrado L298. Este circuit
 TODO
 
 ### Software
+
+TODO
 
 ### Créditos
 - [Caio Henrique Segawa Tonetti](https://github.com/LionsWrath)

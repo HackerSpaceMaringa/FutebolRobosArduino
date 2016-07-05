@@ -1,5 +1,8 @@
 #TODO
 
+## Geral
+- [ ] Finalizar README
+
 ## Client-side(CS)
 - [x] Schematic (Eagle) 
 - [x] Montagem protoboard
