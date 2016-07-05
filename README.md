@@ -11,10 +11,10 @@ Projeto completo do Futebol de Robôs mantido pelo Hackerspace Maringá.
     - [Hardware](#hardware)
         - [Microcontrolador](#microcontrolador)
         - [Comunicação](#comunicação)
-        - [Controle dos Motores](#controle dos motores)
-        - [Monitoramento da Bateria](#monitoramento da bateria)
+        - [Controle dos Motores](#controle#dos#motores)
+        - [Monitoramento da Bateria](#monitoramento#da#bateria)
     - [Software](#software)
-- [TODO](#todo)
+- [Avanço do Projeto](#avanço#do#projeto)
 - [Créditos](#créditos)
 - [Licença](#licença)
 
@@ -43,7 +43,7 @@ TODO
 ### Software
 
 ### Créditos
-- [Caio Henrique Segawa Tonetti](github.com/lionswrath)
+- [Caio Henrique Segawa Tonetti](https://github.com/LionsWrath)
 - Alexandre Santiago da Silva   
 - Kariston Franzin Boveto 
 - Marcos Yukio Siraichi
@@ -52,39 +52,9 @@ TODO
 - Willy John Nakamura Goto
 - Paulo André Camargo Cocco
 
-### TODO
+### Avanço do Projeto
 
-#### Client-side(CS)
-- [x] Schematic (Eagle) 
-- [x] Montagem protoboard
-- [x] Implementação Comunicação Bluetooth
-- [ ] Implementação Protocolo
-- [x] Implementação Controle dos motores
-- [ ] Implementação Movimentação
-- [ ] Board (Eagle)
-- [ ] Verificar preço produção Board
-- [ ] Finalizar compra dos componentes
-- [ ] Soldar as placas
-
-#### Server-side(SS)
-- [x] Script de Comunicação Bluetooth
-- [ ] Implementação Protocolo
-- [ ] Implementação Detecção dos Robôs
-- [ ] Implementação da Estratégia
-
-#### Testes
-- [x] CS:Testes Comunicação Bluetooth (Protoboard)
-- [ ] CS:Testes Comunicação Bluetooth (Board)
-- [ ] CS:Testes de Recepção do Protocolo
-- [x] CS:Testes Controle Motores (Protoboard)
-- [ ] CS:Testes Controle Motores (Board)
-- [ ] CS:Testes Movimentação
-- [ ] CS:Testes Monitoramento da Bateria (Protoboard)
-- [ ] CS:Testes Monitoramento da Bateria (Board)
-- [x] SS:Testes do Script de Comunicação Bluetooth
-- [ ] SS:Testes de Envio do Protocolo
-- [ ] SS:Testes Detecção dos Robôs
-- [ ] SS:Testes da Estratégia
+O avanço do projeto pode ser acompanhado no arquivo [TODO.md](https://github.com/HackerSpaceMaringa/FutebolRobosArduino/blob/master/TODO.md)
 
 ### Licença
 This project extends GNU GPL v. 3, so be aware of that, regarding copying, modifying and (re)destributing.
