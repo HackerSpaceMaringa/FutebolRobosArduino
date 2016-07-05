@@ -11,7 +11,6 @@ before_install:
 
 script:
   - arduino --verify --board arduino:avr:uno $PWD/FutebolRobosArduino.ino
-  - arduino --verify --board arduino:avr:nano $PWD/FutebolRobosArduino.ino
 
 notifications:
   email:
