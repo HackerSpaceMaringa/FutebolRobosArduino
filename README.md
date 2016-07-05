@@ -9,16 +9,14 @@ Projeto completo do Futebol de Robôs mantido pelo Hackerspace Maringá.
 - [Sobre](#sobre)
 - __O Projeto__
     - [Hardware](#hardware)
-        - [Microcontrolador]
-        - [Comunicação]
-        - [Controle dos Motores]
-        - [Monitoramento da Bateria]
+        - [Microcontrolador](#microcontrolador)
+        - [Comunicação](#comunicação)
+        - [Controle dos Motores](#controle dos motores)
+        - [Monitoramento da Bateria](#monitoramento da bateria)
     - [Software](#software)
-        - [Server Side]
-        - [Client Side]
-- [TODO]
-- [Créditos]
-- [License]
+- [TODO](#todo)
+- [Créditos](#créditos)
+- [Licença](#licença)
 
 ### Sobre
 
@@ -45,14 +43,14 @@ TODO
 ### Software
 
 ### Créditos
-    - [Caio Henrique Segawa Tonetti](github.com/lionswrath)
-    - Alexandre Santiago da Silva   
-    - Kariston Franzin Boveto 
-    - Marcos Yukio Siraichi
-    - Christian Takashi Nakata
-    - Fernando Hideo Kokubu
-    - Willy John Nakamura Goto
-    - Paulo André Camargo Cocco
+- [Caio Henrique Segawa Tonetti](github.com/lionswrath)
+- Alexandre Santiago da Silva   
+- Kariston Franzin Boveto 
+- Marcos Yukio Siraichi
+- Christian Takashi Nakata
+- Fernando Hideo Kokubu
+- Willy John Nakamura Goto
+- Paulo André Camargo Cocco
 
 ### TODO
 
@@ -88,5 +86,5 @@ TODO
 - [ ] SS:Testes Detecção dos Robôs
 - [ ] SS:Testes da Estratégia
 
-### License
+### Licença
 This project extends GNU GPL v. 3, so be aware of that, regarding copying, modifying and (re)destributing.
