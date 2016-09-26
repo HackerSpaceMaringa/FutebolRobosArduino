@@ -48,7 +48,7 @@ TODO
 - [Caio Henrique Segawa Tonetti](https://github.com/LionsWrath)
 - Alexandre Santiago da Silva   
 - Kariston Franzin Boveto 
-- Marcos Yukio Siraichi
+- [Marcos Yukio Siraichi](https://github.com/YuKill)
 - Christian Takashi Nakata
 - Fernando Hideo Kokubu
 - Willy John Nakamura Goto
