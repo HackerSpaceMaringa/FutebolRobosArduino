@@ -53,6 +53,7 @@ TODO
 - Fernando Hideo Kokubu
 - Willy John Nakamura Goto
 - Paulo André Camargo Cocco
+- [Jair Guilherme Certorio](https://github.com/jcert)
 
 ### Avanço do Projeto
 
