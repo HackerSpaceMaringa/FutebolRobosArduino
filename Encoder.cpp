@@ -79,7 +79,7 @@ void Encoder::reset() {
 
 unsigned long Encoder::calculaRpm(unsigned TempoPassado) {
   Rpm = (60L * 1000L * Pulsos) / (TempoPassado * PULSOS_POR_VOLTA);
-  TempoMedido = millis();
+  TempoMedido = millis(); //resetTempoMedido(); tem função pra isso, pog
   return Rpm;
 }
 
