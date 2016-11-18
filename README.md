@@ -49,7 +49,7 @@ TODO
 - Alexandre Santiago da Silva   
 - Kariston Franzin Boveto 
 - [Marcos Yukio Siraichi](https://github.com/YuKill)
-- Christian Takashi Nakata
+- [Christian Takashi Nakata](https://github.com/Alpaca-kun)
 - Fernando Hideo Kokubu
 - Willy John Nakamura Goto
 - Paulo André Camargo Cocco
