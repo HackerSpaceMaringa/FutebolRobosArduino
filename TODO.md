@@ -8,7 +8,7 @@
 - [x] Montagem protoboard
 - [x] Implementação Comunicação Bluetooth
 - [ ] Implementação Protocolo
-- [x] Implementação Controle dos motores
+- [x] Implementação PID
 - [ ] Implementação Movimentação
 - [ ] Board (Eagle)
 - [ ] Verificar preço produção Board

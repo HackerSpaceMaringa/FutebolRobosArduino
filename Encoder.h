@@ -8,7 +8,7 @@ struct Encoder {
   volatile unsigned Pulsos;
   unsigned long TempoMedido;
   unsigned long Rpm;
-  
+
   Encoder();
   void reset();
   unsigned long calculaRpm(unsigned);
