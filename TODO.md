@@ -10,9 +10,9 @@
 - [ ] Implementação Protocolo
 - [x] Implementação PID
 - [ ] Implementação Movimentação
-- [ ] Board (Eagle)
-- [ ] Verificar preço produção Board
-- [ ] Finalizar compra dos componentes
+- [x] Board (Eagle)
+- [x] Verificar preço produção Board
+- [x] Finalizar orçamento dos componentes
 - [ ] Soldar as placas
 
 ## Server-side(SS)
