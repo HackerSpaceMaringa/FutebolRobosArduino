@@ -14,7 +14,7 @@ Projeto completo do Futebol de Robôs mantido pelo Hackerspace Maringá.
         - [Controle dos Motores](#controle-dos-motores)
         - [Monitoramento da Bateria](#monitoramento-da-bateria)
     - [Software](#software)
-- [Avanço do Projeto](#avanço#do-projeto)
+- [Avanço do Projeto](#avanço-do-projeto)
 - [Créditos](#créditos)
 - [Licença](#licença)
 
@@ -60,4 +60,4 @@ TODO
 O avanço do projeto pode ser acompanhado no arquivo [TODO.md](https://github.com/HackerSpaceMaringa/FutebolRobosArduino/blob/master/TODO.md)
 
 ### Licença
-This project extends GNU GPL v. 3, so be aware of that, regarding copying, modifying and (re)destributing.
+This project extends [GNU GPL v. 3](./LICENSE), so be aware of that, regarding copying, modifying and (re)destributing.
