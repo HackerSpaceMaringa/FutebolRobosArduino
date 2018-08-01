@@ -6,6 +6,6 @@
 void setupBluetooth();
 int btBytesDisponiveis();
 String btRecebeMensagem();
-void byEnviaMensagem(String);
+void btEnviaMensagem(String);
 
 #endif

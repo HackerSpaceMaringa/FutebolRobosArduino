@@ -4,16 +4,20 @@
 - [ ] Finalizar README
 
 ## Client-side(CS)
-- [x] Schematic (Eagle) 
+- [x] Schematic (Eagle)
 - [x] Montagem protoboard
 - [x] Implementação Comunicação Bluetooth
 - [ ] Implementação Protocolo
 - [x] Implementação PID
 - [ ] Implementação Movimentação
-- [x] Board (Eagle)
-- [x] Verificar preço produção Board
+- [x] Board v1.0 (Eagle)
+- [ ] Board v2.0 (Eagle)
 - [x] Finalizar orçamento dos componentes
-- [ ] Soldar as placas
+- [x] Verificar preço produção Board (v1.0)
+- [x] Soldar o Protótipo (v1.0)
+- [ ] Realizar Testes (v1.0)
+- [ ] Verificar preço produção Board (v2.0)
+- [ ] Soldar o Protótipo (v2.0)
 
 ## Server-side(SS)
 - [x] Script de Comunicação Bluetooth
@@ -23,10 +27,12 @@
 
 ## Testes
 - [x] CS:Testes Comunicação Bluetooth (Protoboard)
-- [ ] CS:Testes Comunicação Bluetooth (Board)
+- [ ] CS:Testes Comunicação Bluetooth (v1.0)
+- [ ] CS:Testes Comunicação Bluetooth (v2.0)
 - [ ] CS:Testes de Recepção do Protocolo
 - [x] CS:Testes Controle Motores (Protoboard)
-- [ ] CS:Testes Controle Motores (Board)
+- [ ] CS:Testes Controle Motores (v1.0)
+- [ ] CS:Testes Controle Motores (v2.0)
 - [ ] CS:Testes Movimentação
 - [ ] CS:Testes Monitoramento da Bateria (Protoboard)
 - [ ] CS:Testes Monitoramento da Bateria (Board)
