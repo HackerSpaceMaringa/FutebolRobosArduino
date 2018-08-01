@@ -15,23 +15,29 @@ void setup() {
 void loop() {
   if (btBytesDisponiveis() > 0) {
     String Message = btRecebeMensagem();
-    //Serial.print("Message: ");
-    //Serial.println(Message);
+    Serial.print("Message: ");
+    Serial.println(Message);
+
     if (Message == "ViraDireita") {
-      mtViraParaDireita();
+        mtViraParaDireita();
     }
+
     if (Message == "ViraEsquerda") {
-      mtViraParaEsquerda();
+        mtViraParaEsquerda();
     }
+
     if(Message == "VaiParaFrente") {
-      mtVaiParaFrente();
+        mtVaiParaFrente();
     }
+
     if(Message == "VaiParaTras") {
-      mtVaiParaTras();
+        mtVaiParaTras();
     }
+
     if(Message == "Parar") {
-      mtParar();
+        mtParar();
     }
   }
+
   loopEncoder();
 }

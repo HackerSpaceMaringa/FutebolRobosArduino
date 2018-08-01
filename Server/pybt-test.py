@@ -25,26 +25,26 @@ for dev in devices:
     devSerial[dev[ADDR]] = newSerial
 
 while True:
-    com = raw_input("Command [test|exit]:")
+    com = input("Command [test|exit]:")
 
     if (com == 'exit'):
         break
     elif not (com == 'test'):
         continue
 
-    robot = raw_input("Robot (0-%d):" % (len(devices)-1))
-    msg = raw_input("Message:")
+    robot = input("Robot (0-%d):" % (len(devices)-1))
+    msg = input("Message:")
     
     curDev = devices[int(robot)]
 
     if (devSerial[curDev[ADDR]].isOpen):
-        print "Sending {%s} to serial port /dev/rfcomm%s." % (msg, curDev[PORT])
+        print("Sending {%s} to serial port /dev/rfcomm%s." % (msg, curDev[PORT]))
         #devSerial[curDev[ADDR]].write(chr(len(msg)))
-        devSerial[curDev[ADDR]].write(msg)
-        devSerial[curDev[ADDR]].write(chr(0))
-        print "AT sent to robot %s in address %s." % (curDev[NAME], curDev[ADDR])
+        devSerial[curDev[ADDR]].write(msg.encode())
+        devSerial[curDev[ADDR]].write("\n".encode())
+        print("AT sent to robot %s in address %s." % (curDev[NAME], curDev[ADDR]))
     else:
-        print "Serial /dev/rfcomm%s not ok..." % curDev[PORT]
+        print("Serial /dev/rfcomm%s not ok..." % curDev[PORT])
 
 #    data = devSerial[curDev[ADDR]].read(16)
 #    print "Received: %s" % data
