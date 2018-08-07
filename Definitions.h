@@ -13,8 +13,8 @@
  * Definicoes do Bluetooth
  */
 #define BT_BAUD_RATE 9600
-#define BT_RX_PIN    8
-#define BT_TX_PIN    9
+#define BT_RX_PIN    9
+#define BT_TX_PIN    8
 
 /*
  * Definicoes do Motor
