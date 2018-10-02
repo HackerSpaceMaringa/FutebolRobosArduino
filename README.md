@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/HackerSpaceMaringa/FutebolRobosArduino.svg?branch=master)](https://travis-ci.org/HackerSpaceMaringa/FutebolRobosArduino)
 
+O projeto Futebol de Robôs surgiu da parceria do HackerSpace Maringá com o Professor Nardênio Almeida Martins, do Departamento de Informática (DIN) da Universidade Estadual de Maringá (UEM). O projeto inclui, desenvolver os circuitos, PCB, firmware (no microcontrolador) e software (com as estratégias e visão computacional). Devido a graduação de vários membros, o projeto caminha dentro do possível. Atualmente, foram impressas as PCBs da v2, feito o firmware v1 e software de visão computacional.  
+
 Projeto completo do Futebol de Robôs mantido pelo Hackerspace Maringá.
 
 ## Índice
