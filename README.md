@@ -49,7 +49,7 @@ TODO
 ### Créditos
 - [Caio Henrique Segawa Tonetti](https://github.com/LionsWrath)
 - Alexandre Santiago da Silva   
-- Kariston Franzin Boveto 
+- [Kariston Franzin Boveto](https://github.com/karistonf)
 - [Marcos Yukio Siraichi](https://github.com/ysiraichi)
 - [Christian Takashi Nakata](https://github.com/Alpaca-kun)
 - Fernando Hideo Kokubu
